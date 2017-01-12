@@ -29,7 +29,7 @@ echo put %2 %unixpath%>>"%mypath%\a.ftp"
 echo disconnect>>"%mypath%\a.ftp" 
 echo quit>>"%mypath%\a.ftp"    
 C:\Windows\System32\ftp.exe -s:"%mypath%\a.ftp"   
-C:\Windows\System32\ftp.exe -s:"%mypath%\a.ftp"   
+
 
 REM java -jar "%mypath%\TriggerBuild.jar" %username% %password% %host% %unixpath%
 del "%mypath%\a.ftp"
