@@ -18,7 +18,9 @@ Windows Machine only + Eclipse
 4. Click on New Launch Configuration.
 5. Provide Name of the Plugin like  (Push To Server).
 6. Under the Main Tab Click on Browse File System and Select The Eclipse_FTP.bat 
-7. Under Arguments Space Put Below 
-<br><B>${resource_path}<br>
-"${selected_resource_loc}"<br>
-${resource_name}</B>
+7. Under Arguments box put these 3 variables Same to same 
+<br><b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      ${resource_path}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      "${selected_resource_loc}"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      ${resource_name}</b>
+                  
