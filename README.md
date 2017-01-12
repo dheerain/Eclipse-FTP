@@ -13,14 +13,16 @@ Windows Machine only + Eclipse
 # Installation and Configuration 
 #    Steps
 1. Place the Batch File on your Windows machine (Preferably Eclipse Directory).
-2. Open Eclipse and Open the Project.
-3. GoTo: Run->External Tools->External Tools Configuration
-4. Click on New Launch Configuration.
-5. Provide Name of the Plugin like  (Push To Server).
-6. Under the Main Tab Click on Browse File System and Select The Eclipse_FTP.bat 
-7. Under Arguments box put these 3 variables Same to same 
+2. Open The Eclipse_FTP.bat File in Notepad and populate Credential to connect to machine.
+3. Populate Root Path of the Project on the Remote machine in <b>rootpath </b> Variable in the Notepad File.Remaining path and File name  Will be taken from eclipse.
+3. Open Eclipse and Open the Project.
+4. GoTo: Run->External Tools->External Tools Configuration
+5. Click on New Launch Configuration.
+6. Provide Name of the Plugin like  (Push To Server).
+7. Under the Main Tab Click on Browse File System and Select The Eclipse_FTP.bat 
+8. Under Arguments box put these 3 variables Same to same 
 <br><b>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      ${resource_path}<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      "${selected_resource_loc}"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      ${resource_name}</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${resource_path}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"${selected_resource_loc}"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${resource_name}</b><br><br><br>
                   
