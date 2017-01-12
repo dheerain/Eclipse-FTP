@@ -11,3 +11,6 @@ So Insted of Copying the Code to A Particular Directory on the Remote Machine us
 Windows Machine only + Eclipse 
 
 # Installation and Configuration 
+#Steps
+  1.Place the Batch File on your Windows machine (Preferably Eclipse Directory)
+  2.
