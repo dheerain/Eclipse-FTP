@@ -7,7 +7,7 @@ I am not Good With Vim and Love to code on Eclipse.
 I Got the Whole Source code on my Windows machine and Set it up On Eclipse but to Compile it I have to use the Remote machine.
 So Insted of Copying the Code to A Particular Directory on the Remote Machine using filezilla.
 
-#compatibility
-Windows Machine only
+#Compatibility
+Windows Machine only + Eclipse 
 
 # Installation and Configuration 
