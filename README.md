@@ -8,7 +8,7 @@ I Got the Whole Source code on my Windows machine and Set it up On Eclipse but t
 So Insted of Copying the Code to A Particular Directory on the Remote Machine using filezilla I have developed this Eclipse Plugin
 
 #  Compatibility
-Windows Machine only + Eclipse 
+Windows Machine + Eclipse 
 
 # Installation and Configuration 
 #    Steps
